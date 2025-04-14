@@ -3,32 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects - My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>My Portfolio</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html" class="active">Projects</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
-
-  <main>
+  <section class="projects">
     <h2>My Projects</h2>
-    <ul>
-      <li><strong>Project 1:</strong> A simple HTML website.</li>
-      <li><strong>Project 2:</strong> A basic calculator using JavaScript.</li>
-      <li><strong>Project 3:</strong> A responsive blog layout.</li>
-    </ul>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Your Name</p>
-  </footer>
+    <div class="project-grid">
+      <article>
+        <img src="images/project1.jpg" alt="Project 1" />
+        <h3>Project One</h3>
+        <p>Description of the first project.</p>
+      </article>
+      <article>
+        <img src="images/project2.jpg" alt="Project 2" />
+        <h3>Project Two</h3>
+        <p>Description of the second project.</p>
+      </article>
+      <article>
+        <img src="images/project3.jpg" alt="Project 3" />
+        <h3>Project Three</h3>
+        <p>Description of the third project.</p>
+      </article>
+    </div>
+  </section>
+  <footer>&copy; 2025 Your Name</footer>
 </body>
 </html>
 
